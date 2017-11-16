@@ -1,0 +1,19 @@
+body{
+	background-image:url(sled.jpg);
+}
+
+.block { 
+    background:  #ff6600;
+    border: double 8px #4a608b; 
+    float: none;
+	font-size: 300%;
+	color: white;
+	text-align: center;
+	margin: auto;
+	height: 6%;
+	margin: 30px auto;
+	border:#993300 4px solid;
+	font-family: Monotype Corsiva;	
+	width:60%; 
+	text-align: center;
+}

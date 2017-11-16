@@ -1,0 +1,190 @@
+body{
+	background-color: #ff6600;
+	margin:0;
+	padding:0;	
+}
+.headline{
+	height: 100%;
+	width: 100%;
+}
+
+.headline1{
+	background: #ffffff;
+	height: 13%;
+	width: 80%;
+	margin: 30px auto;	
+	text-align: center;
+	color: #993300;
+	font-size: 40;
+	font-family: Arial;
+}
+
+
+ul#cssmenu {
+        width:30%;
+		height: 200;
+        margin: 1% 0 0 10%;
+        border: 0 none;
+        padding: 2% 0 0 0;
+        list-style: none;
+        background: #993300;
+        font: 22 Monotype Corsiva;
+        border:#ff9966 4px solid;
+		
+        border-radius:10px;
+			float: left
+}
+
+ul#cssmenu li {
+        margin: 0;
+        border: 0 none;
+        padding: 0;
+        float: left;
+        display: inline;
+        list-style: none;
+        position: relative;
+        height: 50px;   /*расстояние между выпадающими ссылками*/
+		color:orange;
+        border-radius:5px;
+		
+}
+
+ul#cssmenu ul {
+        margin: 20;
+        border: 0 none;
+        padding: 0;
+        width: 140px;
+        list-style: none;
+        display: none;
+        position: absolute;
+        top: 22px;
+        left: 0;
+	
+}
+
+ul#cssmenu ul:after {
+        clear: both;
+        display: block;
+        font: 1px/0px serif;
+        content: ".";
+        height: 0;
+        visibility: hidden;
+}
+
+ul#cssmenu ul li {
+        width: 205px;
+		height: 30px;
+        float: left;
+        display: block !important;
+        display: inline;
+        margin:1px;
+		padding:1px;
+		background: white;   /*рамка вокруг выпадающих ссылок*/
+		//background:-webkit-gradient(linear, left top, left bottom, from(#675545), color-stop(0.6, transparent), to(black));
+        border-radius:20px;
+}
+
+/* Главное меню */
+ul#cssmenu a {
+        border: 0px;
+        padding: 0 10px;
+        float: none !important;
+        float: left;
+        display: block;
+        text-decoration: none;
+        height: auto !important;
+        height: 1%;
+		color:black;
+		font-size: 26px;
+        border-radius:20px;
+
+}
+
+
+/*выделяется при наведении на меню*/
+/* Main Menu Hover */ 
+ul#cssmenu a:hover,
+ul#cssmenu li:hover a,
+ul#cssmenu li.iehover a {
+       //background:-webkit-gradient(linear, left top, left bottom, from(#675545), color-stop(0.6, transparent), to(black));
+	   background: black;
+       border-top:gray 2px solid;
+	   color:gold;
+	   font-weight: normal;
+}
+
+/*выпадающее меню до наведения*/
+/* Second Menu */  
+ul#cssmenu li:hover li a,
+ul#cssmenu li.iehover li a {
+        float: none;
+        //background:-webkit-gradient(linear, left top, left bottom, from(#675545), color-stop(0.6, transparent), to(black));
+		background: black;
+		color:silver;
+		border-radius:20px;
+		font-weight:normal;
+		
+}
+
+/*цвет выпадающего меню при наведении*/
+/* Second Menu Hover */ 
+ul#cssmenu li:hover li a:hover,
+ul#cssmenu li:hover li:hover a,
+ul#cssmenu li.iehover li a:hover,
+ul#cssmenu li.iehover li.iehover a {
+        border-top: 2px solid silver;
+        //background:-webkit-gradient(linear, left top, left bottom, from(#675545), color-stop(0.6, transparent), to(white));
+		background: black ;
+        color:gold;
+        border:#indigo 1px solid;
+		border-radius:20px;
+		font-weight: normal;
+}
+
+ul#cssmenu ul ul {
+        display: none;
+        position: absolute;
+        top: 0;
+        left: 0px;
+}
+
+ul#cssmenu li:hover ul ul,
+ul#cssmenu li.iehover ul ul {
+        display: block;
+}
+
+ul#cssmenu li:hover ul,
+ul#cssmenu ul li:hover ul,
+ul#cssmenu li.iehover ul,
+ul#cssmenu ul li.iehover ul {
+        display: block;
+}
+
+h2{
+	padding:0;
+	margin:0;
+	color: #993300
+}
+
+.text{
+	width: 45%;
+	float: right;
+	font-family: Arial;
+	font-size: 20;
+	text-align: center;
+	margin: 0 10% 0 0;
+	padding:0;
+	color: white;
+}
+
+.low {
+	background: white;
+	height: 22%;
+	margin: 40% 0 0 0;
+	padding-bottom:0;
+
+}
+
+
+
+

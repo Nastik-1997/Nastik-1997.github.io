@@ -1,0 +1,68 @@
+body{
+	 background: url(sled.jpg);
+}
+
+.glavn{
+	float: left;
+	margin: 0.5% 0 0 10%;
+	height: 9%;
+}
+
+.headline{
+	font-size: 300%;
+	color: white;
+	text-align: center;
+	margin: auto;
+	height: 10%;
+	width: 80%;
+	background-color: #ff6600;
+	margin: 30px auto;
+	border:#993300 4px solid;
+	font-family: Monotype Corsiva;
+}
+
+
+.stiker{
+	 background: url(sticker2.jpg) no-repeat top center;
+		 
+}
+
+td{
+	height: 600;
+	width: 700;
+}
+
+table{
+	margin: auto;
+	width: 70%;
+}
+
+h2{
+	text-align: center;
+	color: red;
+	font-family: Monotype Corsiva;
+}
+
+.description{
+	text-align: center;
+	color: #993300;
+	width: 70%;
+	margin: auto;
+	font-size: 22;
+	font-family: Monotype Corsiva;
+}
+
+.cssimg{
+	height: 400;
+	text-align: center;
+}
+
+.low{
+	height: 18%;
+	width: 80%;
+	background-color: #ff6600;
+	margin: 30px auto;
+	border:#993300 4px solid;
+	text-align: center;
+	
+}
